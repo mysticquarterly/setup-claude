@@ -1,0 +1,39 @@
+{
+  "name": "@multiplist/setup-claude",
+  "version": "1.0.0",
+  "description": "1-click CLI to configure Claude Desktop with the Multiplist Sovereign MCP Server (Portable AI Memory Vault & Workspace)",
+  "type": "module",
+  "main": "lib/setup.js",
+  "bin": {
+    "setup-claude": "bin/index.js",
+    "multiplist-setup-claude": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-desktop",
+    "multiplist",
+    "ai-memory",
+    "setup"
+  ],
+  "author": "Multiplist",
+  "license": "MIT",
+  "homepage": "https://multiplist.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/multiplist/setup-claude.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
